@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Celebration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #content {
+            padding: 50px;
+            margin-bottom: 200px;
+            margin-top: 200px;
+            max-width: 500px;
+            min-height: 100px;
+            margin: 0 auto;
+            position: relative; 
+            text-align: center; 
+            background-color: #f0f0f0; 
+            overflow: hidden;
+            box-shadow: 0px 10px 15px -3px;
+        }
+
+        p {
+            font-size: 20px;
+            font-style: inherit;
+            color: #333;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .birthday-wish {
+            font-size: 24px;
+            color: #ff4500;
+            font-weight: bold;
+            animation: heartbeat 1s infinite alternate;
+        }
+
+        @keyframes heartbeat {
+            from {
+                transform: scale(1);
+            }
+            to {
+                transform: scale(1.1);
+            }
+        }
+
+        
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        .button.yes {
+            animation: pulseYes 1s infinite alternate;
+        }
+
+        .button.no {
+            animation: pulseNo 1s infinite alternate;
+        }
+
+        @keyframes pulseYes {
+            from {
+                transform: scale(1);
+            }
+            to {
+                transform: scale(1.1);
+            }
+        }
+
+        @keyframes pulseNo {
+            from {
+                transform: scale(1);
+            }
+            to {
+                transform: scale(1.1);
+            }
+        }
+
+        
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .balloon, .heart, .symbol {
+            position: absolute;
+            bottom: 0;
+            animation-duration: 10s; 
+            animation-iteration-count: infinite; 
+            animation-timing-function: linear; 
+            font-size: 40px; 
+        }
+
+        @keyframes floatUpBalloon {
+            0% { bottom: 0; } 
+            100% { bottom: 100%; } 
+        }
+        @keyframes floatUpHeart {
+            0% { bottom: 0; }
+            100% { bottom: 100%; } 
+        }
+        @keyframes floatUpSymbol {
+            0% { bottom: 0; } 
+            100% { bottom: 100%; }
+        }
+        @keyframes floatDownSymbol {
+            0% { top: -50px; opacity: 0; }
+            100% { top: 100%; opacity: 1; }
+        }
+        @keyframes openLetter {
+            0% { transform: rotateY(0deg); }
+            100% { transform: rotateY(180deg); }
+        }
+        #behavior {
+            font-size: 16px;
+            font-family: initial;
+            color: #333;
+            color: #18091e;
+            margin-top: 50px; 
+            font-style: unset;
+        }
+        .demo {
+            margin-top: 200px;
+            margin-left: 15px;
+            margin-right: 30px;
+            
+        }
+    </style>
+</head>
+<body class="demo">
+    <div id="content">
+        <span class="symbol" style="left: 12%; animation-name: floatUpSymbol; animation-delay: 1s;">💫</span>
+        <span class="symbol" style="left: 24%; animation-name: floatUpSymbol; animation-delay: 2s;">✨</span>
+        <span class="symbol" style="left: 36%; animation-name: floatUpSymbol; animation-delay: 3s;">🌟</span>
+        <span class="symbol" style="left: 48%; animation-name: floatUpSymbol; animation-delay: 4s;">🎉</span>
+        <span class="symbol" style="left: 60%; animation-name: floatUpSymbol; animation-delay: 5s;">🎁</span>
+
+        <span class="heart" style="left: 60%; animation-name: floatUpHeart; animation-delay: 1s;">❤</span>
+        <span class="heart" style="left: 70%; animation-name: floatUpHeart; animation-delay: 2s;">❤</span>
+        <span class="heart" style="left: 80%; animation-name: floatUpHeart; animation-delay: 3s;">❤</span>
+        <span class="heart" style="left: 90%; animation-name: floatUpHeart; animation-delay: 4s;">❤</span>
+        <span class="heart" style="left: 95%; animation-name: floatUpHeart; animation-delay: 5s;">❤</span>
+
+        
+        <p><strong>MY DEAR TIGER A SMALL B'DAY WISH FROM U'R BEST FRIEND....</strong></p>
+        <p id="behavior"><em>Dear [tiger],
+        how was ur day i hope it went well. 
+        Okay comming to the point As your birthday approaches, I find myself reflecting on our friendship and feeling incredibly grateful for your presence in my life.
+        From the moment we met, there was an undeniable connection that has only grown stronger over the years.
+        You've been my confidante, my support system,and i whish u a happiest bday my dear tiger and just rock ur day with blasts 
+        ,So i just wana tell u something tiger.Let's always remember to cherish our friendship and work through any misunderstandings or conflicts together.
+        and my partner in crime through every twist and turn. Your unwavering loyalty, kindness, and understanding have carried me through both the good times and the bad. 
+        Whether we're laughing until our stomachs hurt or sharing in quiet moments of reflection, your friendship has been a constant source of joy and comfort. 
+        I cherish the memories we've created together and look forward to countless more adventures in the years to come. 
+        Thank you for being the incredible person that you are, and for blessing my life with your friendship.
+         As the saying goes, "True friendship isn't about being inseparable, it's about being separated and nothing changes." I'm always with you.
+         i dont even know that ur hurted by me till today but if i did so im really sorry for that tiger  i dont really mean that too 
+         and ipudu dhakaa opikaa theachukonii naa kosamm chadhivinandhukuu thank u With love,
+[ni best friend tiger.]
+        .I have a question for u tiger that will u accept me to be on ur bad or good times ..?</em></p>
+        <div id="question-buttons">
+            <a href="#" class="button yes" onclick="return confirm('will u be with me in every moment my dear tiger...')">yes</a>
+            <a href="#" class="button no" onclick="return askAgain()">no</a>
+        </div>
+    </div>
+    <script>
+        function askAgain() {
+            var answer = confirm('will u be with me..');
+            if (answer) {
+                alert('thank you so much...');
+            } else {
+                document.querySelector('.button.yes').style.transform = 'scale(1.1)';
+                document.querySelector('.button.no').style.transform = 'scale(1)';
+                askAgain();
+            }
+            return false;
+        }
+    </script>
+</body>
+</html>
